@@ -6,7 +6,8 @@ output: html_document
  keep_md: yes
 ---
 
-### Code Book:
+<body>
+<h3>Code Book:</h3>
 
 
 This code book will describe the data used in this project, as well as the processing required to create the resulting tidy data set.
