@@ -4,13 +4,13 @@ library(dplyr)
 #Download the dataset
 FILENAME <- "Coursera_DS_course3_project.zip"
 
-# Checking if archive already exists.
+# Checking if  archive and folder  exists/not.
 if (!file.exists(FILENAME)){
   fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
   download.file(fileURL, FILENAME)
 }  
 
-# Checking if folder exists
+
 if (!file.exists("UCI HAR Dataset")) { 
   unzip(FILENAME) 
 }
