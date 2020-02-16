@@ -43,10 +43,10 @@ A vector of 2947 integers, denoting the ID of the activity related to each of th
 
 #Data Cleaning steps
 
-1.Download the dataset
+1. Download the dataset
  The zipped Dataset downloaded and extracted under the folder called UCI HAR Dataset
 
-2.Assign each data to variables:
+2. Assign each data to variables:
 Each of data is assigned variables.
 
 
